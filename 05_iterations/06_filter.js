@@ -12,20 +12,26 @@ const values = coding.forEach( (item) => {
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const newNums = myNums.filter( (num) => {
-    return num > 4
+myNums.filter( (num) => {
+    // console.log(num > 4)
+    // this will result either in true or false
 } )
 
-// console.log(newNums);
-
-
-// myNums.forEach( (num) => {
-//     if (num > 4) {
-//         newNums.push(num)
-//     }
+// const newNums = myNums.filter( (num) => {
+//     return num > 4
 // } )
 
+
 // console.log(newNums);
+
+const newNums2 = []
+myNums.forEach( (num) => {
+    if (num > 4) {
+        newNums2.push(num)
+    }
+} )
+
+// console.log(newNums2);
 
 
 const books = [
@@ -44,6 +50,7 @@ const books = [
 
   userBooks = books.filter( (bk) => { 
     return bk.publish >= 1995 && bk.genre === "History"
-})
-  // console.log(userBooks);
+  })
+
+  console.log(userBooks);
 

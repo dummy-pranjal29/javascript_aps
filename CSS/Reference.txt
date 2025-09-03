@@ -7,3 +7,7 @@ MAGIC UI
 DAIZY UI
 FLOWBITE
 ANT DESIGN
+
+
+FONT AWESOME - for different icons
+CODEPEN - enviroment for html and css
